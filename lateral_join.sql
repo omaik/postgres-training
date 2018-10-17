@@ -1,6 +1,6 @@
 /*
  Lateral join performs nested query for every row in reffered table inside nested query.(A bit hard to understand)
- For this example it performs nested query for every album at selects all tracks for them.
+ For this example it performs nested query for every album and selects all tracks for them.
 */
 
 select artist.name, album.title, string_agg(track.name, ' | ') as tracks
