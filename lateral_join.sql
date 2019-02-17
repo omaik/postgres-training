@@ -1,5 +1,5 @@
 /*
- Lateral join performs nested query for every row in reffered table inside nested query.(A bit hard to understand)
+ Lateral join performs nested query for every unique value of the column referred in that nested query.
  For this example it performs nested query for every album and selects all tracks for them.
 */
 
